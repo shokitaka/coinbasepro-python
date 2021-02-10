@@ -30,7 +30,7 @@ class WebsocketClient(object):
             api_secret="",
             api_passphrase="",
             # Make channels a required keyword-only argument; see pep3102
-            *,
+            
             # Channel options: ['ticker', 'user', 'matches', 'level2', 'full']
             channels):
         self.url = url
